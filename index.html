@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinzent Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body class="bg-gray-100 text-gray-900 scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="flex justify-between items-center px-6 py-3">
+      <h1 class="text-2xl font-semibold"><span class="text-red-700">Vinz</span>ent.</h1>
+
+      <!-- Tombol Hamburger -->
+      <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Menu Desktop -->
+      <ul id="menu" class="hidden md:flex gap-8 font-medium">
+        <li><a href="#home" class="hover:text-red-500">Home</a></li>
+        <li><a href="#about" class="hover:text-red-500">About Me</a></li>
+        <li><a href="#education" class="hover:text-red-500">Education</a></li>
+        <li><a href="#skills" class="hover:text-red-500">Skills</a></li>
+        <li><a href="#projects" class="hover:text-red-500">My Projects</a></li>
+      </ul>
+    </div>
+
+    <!-- Menu Mobile -->
+    <ul id="mobile-menu" class="hidden flex-col items-center bg-white w-full border-t border-gray-300 md:hidden">
+      <li><a href="#home" class="block py-3 hover:text-red-500">Home</a></li>
+      <li><a href="#about" class="block py-3 hover:text-red-500">About Me</a></li>
+      <li><a href="#education" class="block py-3 hover:text-red-500">Education</a></li>
+      <li><a href="#skills" class="block py-3 hover:text-red-500">Skills</a></li>
+      <li><a href="#projects" class="block py-3 hover:text-red-500">My Projects</a></li>
+      <li><a href="#contact" class="block py-3 hover:text-red-500">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-6 pt-28 md:pt-40">
+    <div class="text-center md:text-left max-w-xl">
+      <h1 class="text-3xl md:text-5xl font-semibold">Hello! I'm Vinzent Gabriel Pratama Putra</h1>
+      <div class="flex justify-center md:justify-start gap-4 pt-5">
+        <a href="#"><i class="fa-brands fa-facebook fa-2xl hover:text-blue-700 transition-transform hover:scale-125"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa-2xl hover:text-rose-500 transition-transform hover:scale-125"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube fa-2xl hover:text-red-600 transition-transform hover:scale-125"></i></a>
+        <a href="https://github.com/Vinzent31" target="_blank"><i class="fa-brands fa-github fa-2xl hover:text-black transition-transform hover:scale-125"></i></a>
+      </div>
+      <div class="flex justify-center md:justify-start gap-3 mt-6">
+        <a href="#about" class="bg-red-700 text-white px-5 py-3 rounded-full shadow-xl hover:bg-black duration-300">About Me</a>
+        <a href="#projects" class="bg-red-700 text-white px-5 py-3 rounded-full shadow-xl hover:bg-black duration-300">View Project</a>
+      </div>
+    </div>
+    <img src="pp.jpg" alt="Profile" class="w-[200px] md:w-[280px] rounded-full border-4 border-black shadow-xl shadow-red-700 hover:scale-110 duration-300">
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="mt-20 px-6">
+    <h1 class="text-4xl md:text-5xl font-semibold text-center">About Me</h1>
+    <div class="mt-10 flex flex-col md:flex-row items-center bg-white border-4 border-black rounded-lg shadow-xl shadow-red-700 p-6 md:p-10">
+      <img src="pp.jpg" alt="About Me" class="w-[180px] md:w-[250px] rounded-full border-4 border-black shadow-xl shadow-red-700 mb-5 md:mb-0">
+      <div class="md:ml-10 text-center md:text-left">
+        <h2 class="text-2xl md:text-3xl font-semibold">Hi! My name is Vinzent Gabriel Pratama Putra</h2>
+        <p class="text-lg mt-3">I'm a Junior Developer, 16 years old, with a big dream to become a Fullstack Developer.</p>
+        <ul class="list-disc mt-4 ">
+          <li>Name: Vinzent Gabriel Pratama Putra</li>
+          <li>Age: 16</li>
+          <li>Birth Date: 11 June 2009</li>
+          <li>Hobby: Coding, Playing Football</li>
+          <li>Email: vinzentgabriel60@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="mt-20 px-6">
+    <h1 class="text-center text-4xl md:text-5xl font-semibold mb-10">Education History</h1>
+    <div class="flex flex-col items-center gap-10">
+      <!-- SD -->
+      <div class="flex flex-col md:flex-row items-center gap-6 bg-white border-4 border-black rounded-2xl shadow-xl shadow-red-700/40 p-5 w-full md:w-[900px]">
+        <img src="sd.png" alt="SD" class="w-[120px] md:w-[150px] h-[120px] md:h-[150px] rounded-full border-4 border-black shadow-md object-cover">
+        <div class="text-center md:text-left">
+          <h2 class="text-2xl font-semibold text-red-700">SD Anak Bangsa Cerdas & SDN Jogosari 2</h2>
+          <p class="text-gray-700">2015 - 2021</p>
+          <p class="mt-2 text-lg">I started my education here and built my foundation in academic and creative thinking.</p>
+        </div>
+      </div>
+      <!-- SMP -->
+      <div class="flex flex-col md:flex-row items-center gap-6 bg-white border-4 border-black rounded-2xl shadow-xl shadow-red-700/40 p-5 w-full md:w-[900px]">
+        <img src="smp.jpeg" alt="SMP" class="w-[120px] md:w-[150px] h-[120px] md:h-[150px] rounded-full border-4 border-black shadow-md object-cover">
+        <div class="text-center md:text-left">
+          <h2 class="text-2xl font-semibold text-red-700">SMPN 1 Pandaan</h2>
+          <p class="text-gray-700">2021 - 2024</p>
+          <p class="mt-2 text-lg">During this period, I discovered my passion for technology and started learning basic programming.</p>
+        </div>
+      </div>
+      <!-- SMK -->
+      <div class="flex flex-col md:flex-row items-center gap-6 bg-white border-4 border-black rounded-2xl shadow-xl shadow-red-700/40 p-5 w-full md:w-[900px]">
+        <img src="smk.jpeg" alt="SMK" class="w-[120px] md:w-[150px] h-[120px] md:h-[150px] rounded-full border-4 border-black shadow-md object-cover">
+        <div class="text-center md:text-left">
+          <h2 class="text-2xl font-semibold text-red-700">SMKN 1 Purwosari</h2>
+          <p class="text-gray-700">2024 - Present</p>
+          <p class="mt-2 text-lg">Currently majoring in Software Engineering, focusing on becoming a skilled Fullstack Developer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <!-- skilsll -->
+
+<section id="skills">
+  <h1 class="text-center text-5xl font-semibold mt-20">My Skills</h1>
+  <p class="text-center text-xl font-semibold mt-2">Here are some of my skills as a Junior Developer</p>
+  <h1 class="text-center text-5xl font-semibold mt-20">Programming Languages</h1>
+
+  <div class="flex justify-center gap-10 mt-10 flex-wrap">
+    <!-- HTML -->
+    <div class="bg-white shadow-xl shadow-orange-500 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="html.png" alt="HTML" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">HTML</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can create structured  websites using HTML.
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+
+    <!-- CSS -->
+    <div class="bg-white shadow-xl shadow-blue-500 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="css.png" alt="CSS" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">CSS</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can style websites using native CSS.
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+
+    <!-- PHP -->
+    <div class="bg-white shadow-xl shadow-purple-600 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="php.png" alt="PHP" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">PHP</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can build Simple program using PHP.
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="bg-white shadow-xl shadow-yellow-400 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="js.jpeg" alt="JavaScript" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">JavaScript</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can add interactivity and logic to websites using JavaScript.
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+    </div>
+
+     <h1 class="text-center text-5xl font-semibold mt-20">Frameworks</h1>
+     <div class="flex justify-center gap-10 mt-10 flex-wrap">
+    <!-- Laravel -->
+    <div class="bg-white shadow-xl shadow-red-600 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="laravel.png" alt="Laravel" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">Laravel</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I know about Laravel fundamentals i need learn it more
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+    <!-- React -->
+    <div class="bg-white shadow-xl shadow-blue-400 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="react.png" alt="Laravel" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">React</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I know about React fundamentals
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+
+    <!-- Tailwind -->
+    <div class="bg-white shadow-xl shadow-sky-500 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="tailwind.png" alt="PHP" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">Tailwind</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can style modern website using Tailwind.
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+    </div>
+
+    <h1 class="text-center text-5xl font-semibold mt-20">Databases</h1>
+     <div class="flex justify-center gap-10 mt-10 flex-wrap">
+    <!-- MariaDB -->
+    <div class="bg-white shadow-xl shadow-sky-950 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="maria.png" alt="Laravel" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">MariaDB</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can create, delete and update Databases and i can do many commands too
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+    <!-- MYSQL -->
+    <div class="bg-white shadow-xl shadow-sky-950 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="mysql.png" alt="Laravel" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">MySQL</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I can create, delete and update Databases and i can do many commands too
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+
+    </div>
+    <h1 class="text-center text-5xl font-semibold mt-20">Version Control</h1>
+
+  <div class="flex justify-center gap-10 mt-10 flex-wrap">
+    <!-- GIT -->
+    <div class="bg-white shadow-xl shadow-orange-500 rounded-2xl w-[320px] h-[400px] flex flex-col items-center p-5 hover:scale-105 duration-300">
+      <img src="git.png" alt="Git" class="h-[150px] object-contain mt-3">
+      <h1 class="text-xl font-semibold mt-3">Git</h1>
+      <p class="text-center font-medium mt-2 px-3 flex-grow">
+        I know about Git fundamentals.
+      </p>
+      <a href="#projects" class="mt-auto mb-3 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black duration-300">
+        View Project
+      </a>
+    </div>
+    </div>
+</section>
+
+  <!-- PROJECTS -->
+<section id="projects" class="mt-20 px-6 pb-20">
+  <h1 class="text-center text-4xl md:text-5xl font-semibold">My Projects</h1>
+  <p class="text-center text-lg mt-3">These are some of my projects</p>
+  <div class="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-10 mt-10">
+
+     <!-- Project 1 -->
+    <div class="bg-white rounded-2xl shadow-xl shadow-stone-500 transition-shadow duration-300 w-[320px] p-5 flex flex-col text-center">
+      <img src="AI.png" alt="Project 2" class="w-full h-[150px] object-contain rounded-md">
+      <h3 class="text-xl font-bold mt-3">Vinzz Chatbot</h3>
+      <p class="mt-2 text-gray-700">Simple Chatbot using Deepseek API</p>
+      <p class="mt-2 inline-block bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+        Tech used: HTML, Tailwind, Deepseek R1 API, JavaScript
+      </p>
+      <a href="https://github.com/Vinzent31/Chatbot-API" target="_blank" class="mt-4 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black transition-colors duration-300">
+        View Project Repository
+      </a>
+    </div>
+    
+    <!-- Project 2 -->
+    <div class="bg-white rounded-2xl shadow-xl shadow-amber-700 transition-shadow duration-300 w-[320px] p-5 flex flex-col text-center">
+      <img src="cafe.png" alt="Project 2" class="w-full h-[150px] object-contain rounded-md">
+      <h3 class="text-xl font-bold mt-3">Web Cafe Simple</h3>
+      <p class="mt-2 text-gray-700">Static Cafe Simple Website</p>
+      <p class="mt-2 inline-block bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+        Tech used: HTML, CSS, JavaScript
+      </p>
+      <a href="https://github.com/Vinzent31/Web_Kafe" target="_blank" class="mt-4 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black transition-colors duration-300">
+        View Project Repository
+      </a>
+    </div>
+    <!-- Project 3 -->
+    <div class="bg-white rounded-2xl shadow-xl shadow-stone-500 transition-shadow duration-300 w-[320px] p-5 flex flex-col text-center">
+      <img src="headset.png" alt="Project 2" class="w-full h-[150px] object-contain rounded-md">
+      <h3 class="text-xl font-bold mt-3">Web RumahHeadset</h3>
+      <p class="mt-2 text-gray-700">Static headset shop Simple Website</p>
+      <p class="mt-2 inline-block bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+        Tech used: HTML, CSS, JavaScript
+      </p>
+      <a href="https://github.com/Vinzent31/Web-headset-Shop" target="_blank" class="mt-4 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black transition-colors duration-300">
+        View Project
+      </a>
+    </div>
+  
+      <!-- project 4 -->
+    <div class="bg-white rounded-2xl shadow-xl shadow-red-700 transition-shadow duration-300 w-[320px] p-5 flex flex-col text-center">
+      <img src="merdeka.png" alt="Project 2" class="w-full h-[150px] object-contain rounded-md">
+      <h3 class="text-xl font-bold mt-3">Web Kemerdekaan</h3>
+      <p class="mt-2 text-gray-700">A web to celebrate Indonesia’s 80th Independence Day.</p>
+      <p class="mt-2 inline-block bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+        Tech used: HTML, Tailwind
+      </p>
+      <a href="https://github.com/Vinzent31/Web-kemerdekaan" target="_blank" class="mt-4 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black transition-colors duration-300">
+        View Project
+      </a>
+    </div>
+
+      <!-- project 5 -->
+    <div class="bg-white rounded-2xl shadow-xl shadow-blue-300 transition-shadow duration-300 w-[320px] p-5 flex flex-col text-center">
+      <img src="cuaca.png" alt="Project 2" class="w-full h-[150px] object-contain rounded-md">
+      <h3 class="text-xl font-bold mt-3">Weather App</h3>
+      <p class="mt-2 text-gray-700">A simple Weather app using OpenWeather API</p>
+      <p class="mt-2 inline-block bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+        Tech used: HTML, CSS, OpenWeather API, JavaScript 
+      </p>
+      <a href="https://github.com/Vinzent31/weather-API" target="_blank" class="mt-4 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black transition-colors duration-300">
+        View Project
+      </a>
+  </div>
+
+      <!-- project 6 -->
+    <div class="bg-white rounded-2xl shadow-xl shadow-stone-300 transition-shadow duration-300 w-[320px] p-5 flex flex-col text-center">
+      <img src="kasir.png" alt="Project 2" class="w-full h-[150px] object-contain rounded-md">
+      <h3 class="text-xl font-bold mt-3">Web Kasir</h3>
+      <p class="mt-2 text-gray-700">A simple Cahier Program</p>
+      <p class="mt-2 inline-block bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+        Tech used: HTML, Tailwind, PHP
+      </p>
+      <a href="https://github.com/Vinzent31/Sistem-Kasir" target="_blank" class="mt-4 bg-red-700 text-white rounded-full px-6 py-2 hover:bg-black transition-colors duration-300">
+        View Project Repository
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- JS Toggle Menu -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      mobileMenu.classList.toggle('flex');
+
+      const icon = menuBtn.querySelector('i');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-xmark');
+    });
+  </script>
+</body>
+</html>
